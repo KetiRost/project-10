@@ -1,0 +1,272 @@
+/* header */
+html {
+    width: 1920px;
+}
+body {
+    width: 1920px;
+}
+.header-img {
+    background-image: url('../imgs/header-img.png');
+    max-width: 1920px;
+    width: 100%;
+    height: 1080px;
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 40px;
+    padding-left: 12%;
+    padding-right: 4%; */
+    
+}
+/* .hedear-container {
+    width: 84%;
+    padding-top: 40px;
+    margin-left: 235px; */
+
+
+.forlogonav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1608px;
+    padding-top: 40px;
+    margin-left: 235px;
+}
+/* .for-logo {
+    width: 212px;
+    height: 146px;
+} */
+.logo {
+    width: 212px;
+}
+
+/* nav {
+    max-width: 600px; 
+    width: 35%;
+} */
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    max-width: 563px;
+    width: 100%;
+    ;
+}
+
+.nav-li a {
+    font-size: 16px;
+    line-height: 19px;
+}
+.headertext p {
+    width: 500px;
+    font-size: 96px;
+    line-height: 82px;
+    margin-top: 117.8px;
+    color: white;
+    letter-spacing: 3.0px;
+}
+.headertext p::after {
+    content: 'Buy any 2 burgers and get 1.5L Pepsi Free';
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 2.2px;
+    display: block;
+    margin-top: 118px;
+    margin-bottom: 78px;
+    width: 375px;
+    font-weight: bold;
+}
+.orderbutton div {
+width: 255px;
+height: 68px;
+background-color: #FFAA00;
+border: none;
+border-radius: 90px;
+color: #A80E0E;
+font-size: 27px;
+line-height: 23px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+/* section1 */
+.section1 {
+    width: 1920px;
+}
+.section3 {
+    width: 1920px;
+}
+
+.section1box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1920px;
+    /* width: 100%; */
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 139px;
+    padding-bottom: 168px;
+    
+    /* padding-left: 291px;
+    padding-right: 284px; */
+    /* background-color: blue; */
+
+}
+.section1boxfortext {
+    width: 642px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 111px;
+    /* background-color: #FFAA00; */
+}
+
+.section1boxbigp {
+     width: 300px;
+    height: 67px;
+    font-size: 50px;
+    /* line-height: 190px;
+    color: #A80E0E;  */
+    text-align: center;
+   /* background-color: aqua; */
+    
+
+
+}
+.section1boxsmallp {
+    width: 642px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 70px;
+    margin-top: 43px;
+    text-align: center;
+    /* background-color: aqua; */
+
+}
+.section1boxforicons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 291px;
+    padding-right: 284px; */
+
+}
+
+figcaption {
+    text-align: center;
+    font-size: 18px;
+    line-height: 70px;
+    text-transform:uppercase ;
+}
+
+/* section2 */
+
+/* section3 */
+.section3box {
+    width: 84%;
+    margin: 0 auto;
+    /* margin-left: 235px; */
+    margin-top: 126px;
+    margin-bottom: 161px;
+    /* background-color: bisque; */
+}
+.section3boxfortext {
+    display: flex;
+    flex-direction:column;
+    width: 642px;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 118px;
+    /* background-color: aqua; */
+
+}
+.section3boxbigp {
+    font-size: 40px;
+    line-height: 107px;
+    color: #A80E0E;
+    margin-bottom: 62px;
+    text-align: center;
+
+}
+.section3boxsmallp {
+    font-size: 20px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.section3recipiesbox {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+.recipebox {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 444px; */
+    width: 30%;
+    background-color: beige;
+}
+.recipetextbox h3::after {
+    content: 'chiken, tommato, green salad, pita, ketchup,... .';
+    display: block;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+.recipebox img {
+    margin-bottom: 73.5px;
+}
+h3 {
+    font-size: 22px;
+    line-height: 30px;
+}
+.recipetextbox {
+    margin-left: 36px;
+    margin-bottom: 33px;
+}
+
+.addandpricebox {
+    display: flex;
+    align-items: center;
+    
+}
+.addbutton {
+    width: 164px;
+    background-color: #FFAA00;
+    border: none;
+    border-radius: 90px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFF;
+    margin-right: 12px;
+    margin-bottom: 14px;
+}
+.price {
+    color: #A80E0E;
+    font-size: 22px;
+    line-height: 30px;
+    
+}
+.recipebox:nth-child(1),
+.recipebox:nth-child(2),
+.recipebox:nth-child(3) {
+    margin-bottom: 72px;
+
+}
+.recipebox:nth-child(4) .addbutton,
+.recipebox:nth-child(5) .addbutton,
+.recipebox:nth-child(6) .addbutton {
+    margin-bottom: 33px;
+}
